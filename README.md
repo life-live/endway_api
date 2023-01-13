@@ -4,7 +4,10 @@
 
 
 <h3 align="center">Installation</h3>
-`pip install endway-api`
+
+```bash
+pip install endway-api
+```
 
 -------------------------
 
