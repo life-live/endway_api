@@ -126,7 +126,7 @@ class EndWayApi:
                         profilebackground: str = None, about_html: str = None, telegram: str = None, vk: str = None,
                         steam: str = None, discord: str = None, github: str = None) -> object:
         """
-        Creating a comment under a post on a user's page
+        Сhanging account information
 
         :param short_link: Short link to the page
         :type short_link: str
@@ -143,7 +143,7 @@ class EndWayApi:
         :param about_html: A brief biography about yourself
         :type about_html: str
 
-        :param telegram: Username without @
+        :param telegram: Telegram username without @
         :type telegram: str
 
         :param vk: Link to VK
