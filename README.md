@@ -20,10 +20,9 @@ from endway_api import EndWayApi
 ewApi = EndWayApi("xf_user")
 
 result = ewApi.add_reply(1, "Hello")
-<<<<<<< HEAD
 print(result.status_code) # 200
 ```
---- 
+------------------------- 
 <p align="center">How to get xf_user</p>
 
 * Open forum EndWay
