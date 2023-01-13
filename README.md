@@ -2,18 +2,10 @@
 <h4 align="center">https://pypi.org/project/endway-api/</h4>
 <p align="center">Library for convenient work with the EndWay forum</p>
 
-<<<<<<< HEAD
+
 <h3 align="center">Installation</h3>
 ```bash
 pip install endway-api
-=======
-Library for convenient work with the EndWay forum
-
-### Installation
-
-```Python
-pip install endwayapi
->>>>>>> ad5da676d3f3799a6af64a410afcf4228e3bdcef
 ```
 
 -------------------------
