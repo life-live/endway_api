@@ -200,8 +200,3 @@ print(result.status_code) # 200
 |------------------|-------|-------------------------|
 | `signature_html` | str   | New signature           |
 | `return`         | object| Response from the server|
-=======
-print(result.status_code)
-print(result.json())
-```
->>>>>>> ad5da676d3f3799a6af64a410afcf4228e3bdcef
