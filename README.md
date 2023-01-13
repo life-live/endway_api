@@ -2,9 +2,18 @@
 <h4 align="center">https://pypi.org/project/endway-api/</h4>
 <p align="center">Library for convenient work with the EndWay forum</p>
 
+<<<<<<< HEAD
 <h3 align="center">Installation</h3>
 ```bash
 pip install endway-api
+=======
+Library for convenient work with the EndWay forum
+
+### Installation
+
+```Python
+pip install endwayapi
+>>>>>>> ad5da676d3f3799a6af64a410afcf4228e3bdcef
 ```
 
 -------------------------
@@ -18,6 +27,7 @@ from endway_api import EndWayApi
 ewApi = EndWayApi("xf_user")
 
 result = ewApi.add_reply(1, "Hello")
+<<<<<<< HEAD
 print(result.status_code) # 200
 ```
 --- 
@@ -198,3 +208,8 @@ print(result.status_code) # 200
 |------------------|-------|-------------------------|
 | `signature_html` | str   | New signature           |
 | `return`         | object| Response from the server|
+=======
+print(result.status_code)
+print(result.json())
+```
+>>>>>>> ad5da676d3f3799a6af64a410afcf4228e3bdcef
