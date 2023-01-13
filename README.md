@@ -5,9 +5,7 @@ Library for convenient work with the EndWay forum
 ### Installation
 
 ```Python
-pip
-install
-endwayapi
+pip install endwayapi
 ```
 
 ### Get started
