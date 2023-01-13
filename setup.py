@@ -7,16 +7,13 @@ from setuptools import setup
 
 HERE = path.abspath(path.dirname(__file__))
 
-version = "1.1"
-
-with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
-    long_description = f.read()
+version = "1.0"
 
 setup(
     name="endway_api",
     version=version,
     description="Library for convenient work with the EndWay forum",
-    long_description=long_description,
+    long_description="https://github.com/life-live/endway_api",
     long_description_content_type="text/markdown",
     url="https://github.com/life-live/endway_api",
     author="life-live",
